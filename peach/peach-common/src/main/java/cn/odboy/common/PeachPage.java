@@ -14,10 +14,9 @@ import java.util.List;
  */
 @Getter
 @Setter
-public class PeachPage<T, D> {
+public class PeachPage<T> {
     private int page = 1;
     private long size = 10;
     private long total = 0;
-    private T params;
-    private List<D> data;
+    private List<T> data;
 }
